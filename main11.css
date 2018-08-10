@@ -1,0 +1,144 @@
+#header{width:100%;}
+body{font-family: 'Noto Sans Korean', sans-serif;}
+#header .top_area{padding:41px 0 32px;border-bottom:1px solid #ccc;}
+#header .top_area .inner{width:1100px; margin:0 auto; position:relative;}
+#header .top_area .inner h1.logo{text-align:center; height:54px}
+#header .top_area .inner h1.logo img{height:100%}
+#header .top_area .inner ul.sns_btn{position:absolute; left:0; top:6px;}
+#header .top_area .inner ul.sns_btn li{float:left;margin-right:11px;}
+#header .top_area .inner ul.sns_btn li a{
+	font-size:0; 
+	line-height:0; 
+	font-weight:0;
+	text-indent:-9999px;
+	width:43px;
+	height:43px;
+	display:block;
+}
+#header .top_area .inner ul.sns_btn li:nth-child(1) a{
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/sns_fb.png')
+	no-repeat;
+}
+#header .top_area .inner ul.sns_btn li:nth-child(2) a{
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/sns_insta.png')
+	no-repeat;
+}
+#header .top_area .inner ul.sns_btn li:nth-child(3) a{
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/sns_blog.png')
+	no-repeat;
+}
+#header .top_area .inner ul.sns_btn li:nth-child(4) a{
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/sns_ytb.png')
+	no-repeat;
+}
+#header .top_area .inner ul.top_menu{position:absolute; right:52px; top:25px; text-align:center;}
+#header .top_area .inner ul.top_menu li{position:relative; float:left; padding:0 16px;}
+#header .top_area .inner ul.top_menu li:first-child{padding-left:0px;}
+#header .top_area .inner ul.top_menu li:last-child{padding-right:0px;}
+#header .top_area .inner ul.top_menu li:not(:last-child):after{
+	content:'';
+	width:1px;
+	height:11px;
+	display:block;
+	background-color:#999;
+	position:absolute;
+	right:-2px;
+	top:10px;
+}
+#header .top_area .inner ul.top_menu li a{
+	font-size:15px; 
+	font-weight:400; 
+	color:#999; 
+	line-height:30px;
+	letter-spacing:-.25px;
+	}
+#header .top_area .inner ul.top_menu li:last-child a{font-weight:500; color:#666}
+#header .top_area .inner a.search_btn{position:absolute; right:0; top:25px;
+	width:30px;
+	height:30px;
+	display:block;
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/icon_search.png')
+	right
+	center
+	no-repeat;
+	font-size:0;
+	line-height:0;
+	text-indent:-9999px;
+}
+#header .gnb_area .inner{width:1184px; height:78px; margin:0 auto; background-color:#fff}
+#header .gnb_area .inner ul.gnb li{float:left}
+#header .gnb_area .inner ul.gnb li a{
+	padding:0 46px; 
+	font-size:23px; 
+	font-weight:bold; 
+	line-height:78px;
+	letter-spacing:-.25px;
+	color:#333
+}
+#header .gnb_area .inner ul.gnb li a:hover{color:#e31d5a}
+#container .slide{width:100%; position:relative}
+#container .slide .back img{width:1903px}
+#container .slide .txt{
+	text-align:center;
+	position:absolute;
+	width:70%;
+	left:50%;
+	top:77px;
+	margin-left:-35%;
+}
+#container .slide .txt .btn{margin-top:36px;}
+#container .slide .txt .btn ul{display:inline-block; vertical-align:top;}
+#container .slide .txt .btn ul li{float:left;}
+#container .slide .txt .btn ul li:first-child{margin-right:5px;}
+#container .slide .txt .btn ul li:last-child{margin-left:5px;}
+#container .slide .txt .btn ul li a{
+	display:block;
+	width:159px;
+	height:42px;
+	line-height:42px;
+	font-size:16px;
+	font-weight:500;
+	color:#fff;
+	border: 2px solid #fff;
+	text-align:center;
+}
+#container .slide .txt .btn ul li a:hover{color:#333; background-color:#fff;}
+#container .slide .txt .btn ul li:first-child a{
+	color:#ffe48a;
+	border-color:#ffe48a;
+}
+#container .slide .txt .btn ul li:first-child:hover a{color:#333; background-color:#ffe48a;}
+#container .mainsec01{
+	position:relative; 
+	padding-top:90px; 
+	padding-bottom:220px;
+	width:100%;
+	height:510px;
+	background:
+	url('https://www.moguchon.co.kr/wn/images/main/m-logo.png')
+	no-repeat
+	-100px
+	bottom
+	#fffcf5
+}
+#container .mainsec01 .mainhead01{text-align:center; margin-bottom:40px;}
+#container .mainsec01 .mainhead01 p{font-size:20px; line-height:30px; margin-top:23px; color:#555;}
+#container .mainsec01 .plist{position:relative; margin-bottom:36px;text-align:center;}
+#container .mainsec01 .plist ul{text-align:center; display:inline-block}
+#container .mainsec01 .plist ul li{float:left; width:106px; padding:0 5px;vertical-align:top}
+#container .mainsec01 .plist ul li a{
+	display:block;
+	line-height:34px;
+	text-align:center;
+	color:#333;
+	background-color:#fff;
+	border:1px solid #e0e0e0;
+	border-radius:18px;
+	font-size:15px;
+}
+#container .mainsec01 .plist ul li a:hover{background-color:#ff5c30; color:#fff}
