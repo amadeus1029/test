@@ -1,0 +1,46 @@
+body{font-family: 'Noto Sans Korean', sans-serif;}
+.hidden{font-size:0; line-height:0; text-indent:-9999px}
+#header{width:100%;}
+#header .inner{width:1210px; margin:0 auto; position:relative;}
+#header h1.logo a{
+	display:block;
+	width:185px;
+	height:81px;
+	background:
+	url('https://www.tplusdirectmall.com/web/front/images/common/logo.png')
+	0
+	50%
+	no-repeat
+}
+#header .inner nav{position:absolute; left:320px; top:0px;}
+#header .inner nav ul.gnb li{
+	float:left;
+	width:128px;
+	text-align:center;
+	vertical-align:top;
+}
+#header nav ul.gnb li a{
+	font-size:18px;
+	font-weight:400;
+	color:#000;
+	line-height:81px;
+	display:inline-block;
+	text-align:center;
+}
+#header .inner ul.top_menu{position:absolute; right:0; top:26px;}
+#header .inner ul.top_menu li{float:left; margin-left:40px; vertical-align:top;}
+#header .inner ul.top_menu li a{
+	display:block;
+	width:26px;
+	height:26px;
+	background:
+	no-repeat
+	50%
+	0;
+	font-size:0;
+	line-height:0;
+	text-indent:-9999px;
+}
+#header .inner ul.top_menu li:nth-child(1) a{background:url('https://www.tplusdirectmall.com/web/front/images/common/ico_header_search.png')}
+#header .inner ul.top_menu li:nth-child(2) a{background:url('https://www.tplusdirectmall.com/web/front/images/common/ico_header_mypage.png')}
+#header .inner ul.top_menu li:nth-child(3) a{background:url('https://www.tplusdirectmall.com/web/front/images/common/ico_header_info.png')}
